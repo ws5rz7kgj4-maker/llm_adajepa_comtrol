@@ -1,0 +1,16 @@
+method,model_seed,episodes,successes,success_rate
+adaptive_only,11,200,199,0.995
+adaptive_only,29,200,200,1.0
+adaptive_only,47,200,200,1.0
+error,11,200,167,0.835
+error,29,200,168,0.84
+error,47,200,169,0.845
+joint,11,200,86,0.43
+joint,29,200,89,0.445
+joint,47,200,87,0.435
+joint_async,11,200,156,0.78
+joint_async,29,200,153,0.765
+joint_async,47,200,153,0.765
+joint_rule,11,200,136,0.68
+joint_rule,29,200,135,0.675
+joint_rule,47,200,125,0.625

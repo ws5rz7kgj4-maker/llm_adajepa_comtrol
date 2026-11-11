@@ -1,0 +1,6 @@
+method,episodes,successes,success_rate,response_records,vlm_responses,invalid_responses,invalid_fraction
+adaptive_only,600,599,0.9983333333333333,0,0,0,
+error,600,504,0.84,991,991,348,0.3511604439959637
+joint,600,262,0.43666666666666665,2239,2239,694,0.30995980348369806
+joint_async,600,462,0.77,1834,1834,364,0.1984732824427481
+joint_rule,600,396,0.66,2196,0,0,0.0

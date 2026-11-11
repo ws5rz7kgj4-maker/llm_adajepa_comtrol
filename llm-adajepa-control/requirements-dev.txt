@@ -1,0 +1,3 @@
+# Optional historical CPU tests only. Offline demo uses the Python standard library.
+pytest==8.3.5
+numpy>=1.26,<3

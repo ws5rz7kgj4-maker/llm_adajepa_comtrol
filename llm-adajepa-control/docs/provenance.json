@@ -1,0 +1,71 @@
+{
+  "packaged_on": "2026-11-11",
+  "project": "LLM/VLM + AdaJEPA-inspired 3D control",
+  "source_snapshot": "AdaJEPA_3D_HF_v5",
+  "protocol_fingerprint": "116cf750d3f03b3e4fa77595c46a6f57e3285e8ca110d22e609a5e2246535623",
+  "archive_revision": "4af290228c40eb4d4cbcd33438c5163dd6c5f645",
+  "archive_run": "3d-fe19836e8ef5",
+  "source_archives": {
+    "AdaJEPA_3D_HF_v5.zip": {
+      "sha256": "a7dc37ed02b266fbb6083abf05ee7b4308a44cd4be9b3f21ea3fbe6deb9f6722",
+      "bytes": 91229
+    },
+    "AdaJEPA_Failure_Audit_20261024_012642_UTC.zip": {
+      "sha256": "70474993f48f198114524e3ae8c0d59956b798829d70828313eea26bf6f861e8",
+      "bytes": 64844466
+    }
+  },
+  "original_manifest_files_verified": 36,
+  "preserved_files": {
+    "research/experiment/analysis.py": "1ed2c84a1548ba585433075744122e066c1da8c1a85642e59ad000b008d06665",
+    "research/experiment/check_cloud.py": "992151f68d3ee1d2c26c449c678e0cb8d0bf81185f21138dc8691555427971cb",
+    "research/experiment/core.py": "ba684ea4a97cd1f0b3dd9d837b5bc68037c9d170903ae5707757639b91759a64",
+    "research/experiment/driver.py": "133038c3e56c31b2ae5974fb743a18cede4ba69c32abfaf06a883866fb199a05",
+    "research/experiment/env.py": "24347c98b7744be778f6693add8357429b824324d7e3a34731763df7948d4783",
+    "research/experiment/evaluate.py": "e1e3ae3c294478997ae43054af3596ec3ed0523ea491921ce4c20450975965cf",
+    "research/experiment/model.py": "a8a1b77bcbf544012dcee503f5370bd548b4f9e9e8eab3678658e2b082fbfd29",
+    "research/experiment/preflight.py": "816b4d5b51450ae59199f5b9120bc99f6d3050f48fcb3ed1136a4f82aebd30be",
+    "research/experiment/proposer.py": "e9d8a9841a9a3f85c07359857aceb4d348720253318e81228f7c26175dd909ec",
+    "research/experiment/recovery.py": "370aa685104be8040efba200c1ef1a677753fb2c79cf1c05fbc2f688491168b0",
+    "research/experiment/rendering.py": "e6ee1f74144bbf5d4c5d44e576f013f6828e1c890b4dae263ebcef9a1d8d8e72",
+    "research/experiment/spec.py": "305004e5f597ae1525020e5c29515092ac806b1a7388ab5c38476f37283d9be3",
+    "research/experiment/storage.py": "a2a55da78ceec0a3e56a05e4354d0dab243867c5cad4a9d4dbb49b8437d3df0b",
+    "research/experiment/train.py": "539f2bef4fc23ae71d1b67806acdc1dea5e28052c4a6b7dfc561309038585406",
+    "research/tests/test_protocol.py": "6386c969f95456bbe4a914c427e4a3509a1e4838fb2bd8c252e8686305faffe0",
+    "research/tests/test_batch_storage.py": "7734357364daa3181e63136b5029908e8d2e05c2c661f5d2737e455d8848f8c4",
+    "research/tests/test_rendering.py": "10f76b11ff8a53bcc16aebd8ffd9905719836a40b635fda2b090328a2f207aab",
+    "research/tests/test_data_recovery.py": "d46246dc1f19d35b92b53cb2fb061711908c98abe81a7f57b72889d1be25a916",
+    "research/tests/test_checkpoint_driver.py": "da857e87846dd5464d3f2becf76530a50eb3365ca061c3bd055ef0181c27ef8a",
+    "research/tests/test_model.py": "65018bbdb382d9fc60596ee60d16e071e13c63ee92e7820dbdfae5e715e47562",
+    "research/tests/test_parallel_collect.py": "20ced1ec8a8aafbd23658eb06c40f3d01736343beb9bbb4a9dbcbcfb7334f196",
+    "research/requirements.txt": "dd9d81a2e52cbd80de0cc6532adc3371530676903adffb6c2826afb7cd696e0b",
+    "research/cloud_entry.sh": "784971ee5afd441822844f9359e787cf94c911fc25c1dc8120207f50090441bd"
+  },
+  "evidence_scope": {
+    "episodes": 3000,
+    "methods": [
+      "adaptive_only",
+      "error",
+      "joint",
+      "joint_async",
+      "joint_rule"
+    ],
+    "train_seeds": [
+      11,
+      29,
+      47
+    ],
+    "distinct_test_scenes": 200
+  },
+  "limitations": [
+    "Protocol fingerprint agreement is not proof of identical executed source bytes.",
+    "Audit NPZ receipts are inherited; original NPZ archives were not downloaded or reverified during packaging.",
+    "No GPU simulation, training, or live VLM inference was rerun during packaging.",
+    "This is not the official AdaJEPA checkpoint or benchmark."
+  ],
+  "omitted": [
+    "500 MB full trace; a deterministic illustrative subset is supplied instead.",
+    "Model weights, training NPZs, full evaluation NPZs and rendered RGB frames.",
+    "Personal cloud submission launcher, credentials and billing configuration."
+  ]
+}

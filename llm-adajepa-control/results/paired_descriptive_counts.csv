@@ -1,0 +1,3 @@
+left,right,paired_scene_seed_cells,both_success,left_only,right_only,both_failure,difference_percentage_points
+joint_async,joint,600,256,206,6,132,33.333333333333336
+joint_async,adaptive_only,600,462,0,137,1,-22.833333333333332

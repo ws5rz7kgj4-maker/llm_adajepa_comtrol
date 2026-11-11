@@ -1,0 +1,11 @@
+method,task,episodes,successes,success_rate
+adaptive_only,Lift,300,300,1.0
+adaptive_only,PickPlaceCan,300,299,0.9966666666666667
+error,Lift,300,269,0.8966666666666666
+error,PickPlaceCan,300,235,0.7833333333333333
+joint,Lift,300,260,0.8666666666666667
+joint,PickPlaceCan,300,2,0.006666666666666667
+joint_async,Lift,300,278,0.9266666666666666
+joint_async,PickPlaceCan,300,184,0.6133333333333333
+joint_rule,Lift,300,256,0.8533333333333334
+joint_rule,PickPlaceCan,300,140,0.4666666666666667

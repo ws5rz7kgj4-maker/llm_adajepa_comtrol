@@ -1,0 +1,405 @@
+{
+  "evidence_scope": "Five-method historical audit subset; not the 21-arm full protocol",
+  "protocol_fingerprint": "116cf750d3f03b3e4fa77595c46a6f57e3285e8ca110d22e609a5e2246535623",
+  "episodes": 3000,
+  "response_records": 7260,
+  "vlm_responses_reparsed": 5064,
+  "parser_mismatches": 0,
+  "packaged_hashes_verified": 30,
+  "simulation_rerun": false,
+  "methods": [
+    {
+      "method": "adaptive_only",
+      "episodes": 600,
+      "successes": 599,
+      "success_rate": 0.9983333333333333,
+      "response_records": 0,
+      "vlm_responses": 0,
+      "invalid_responses": 0,
+      "invalid_fraction": null
+    },
+    {
+      "method": "error",
+      "episodes": 600,
+      "successes": 504,
+      "success_rate": 0.84,
+      "response_records": 991,
+      "vlm_responses": 991,
+      "invalid_responses": 348,
+      "invalid_fraction": 0.3511604439959637
+    },
+    {
+      "method": "joint",
+      "episodes": 600,
+      "successes": 262,
+      "success_rate": 0.43666666666666665,
+      "response_records": 2239,
+      "vlm_responses": 2239,
+      "invalid_responses": 694,
+      "invalid_fraction": 0.30995980348369806
+    },
+    {
+      "method": "joint_async",
+      "episodes": 600,
+      "successes": 462,
+      "success_rate": 0.77,
+      "response_records": 1834,
+      "vlm_responses": 1834,
+      "invalid_responses": 364,
+      "invalid_fraction": 0.1984732824427481
+    },
+    {
+      "method": "joint_rule",
+      "episodes": 600,
+      "successes": 396,
+      "success_rate": 0.66,
+      "response_records": 2196,
+      "vlm_responses": 0,
+      "invalid_responses": 0,
+      "invalid_fraction": 0.0
+    }
+  ],
+  "by_task": [
+    {
+      "method": "adaptive_only",
+      "task": "Lift",
+      "episodes": 300,
+      "successes": 300,
+      "success_rate": 1.0
+    },
+    {
+      "method": "adaptive_only",
+      "task": "PickPlaceCan",
+      "episodes": 300,
+      "successes": 299,
+      "success_rate": 0.9966666666666667
+    },
+    {
+      "method": "error",
+      "task": "Lift",
+      "episodes": 300,
+      "successes": 269,
+      "success_rate": 0.8966666666666666
+    },
+    {
+      "method": "error",
+      "task": "PickPlaceCan",
+      "episodes": 300,
+      "successes": 235,
+      "success_rate": 0.7833333333333333
+    },
+    {
+      "method": "joint",
+      "task": "Lift",
+      "episodes": 300,
+      "successes": 260,
+      "success_rate": 0.8666666666666667
+    },
+    {
+      "method": "joint",
+      "task": "PickPlaceCan",
+      "episodes": 300,
+      "successes": 2,
+      "success_rate": 0.006666666666666667
+    },
+    {
+      "method": "joint_async",
+      "task": "Lift",
+      "episodes": 300,
+      "successes": 278,
+      "success_rate": 0.9266666666666666
+    },
+    {
+      "method": "joint_async",
+      "task": "PickPlaceCan",
+      "episodes": 300,
+      "successes": 184,
+      "success_rate": 0.6133333333333333
+    },
+    {
+      "method": "joint_rule",
+      "task": "Lift",
+      "episodes": 300,
+      "successes": 256,
+      "success_rate": 0.8533333333333334
+    },
+    {
+      "method": "joint_rule",
+      "task": "PickPlaceCan",
+      "episodes": 300,
+      "successes": 140,
+      "success_rate": 0.4666666666666667
+    }
+  ],
+  "by_condition": [
+    {
+      "method": "adaptive_only",
+      "condition": "heavy",
+      "episodes": 150,
+      "successes": 150,
+      "success_rate": 1.0
+    },
+    {
+      "method": "adaptive_only",
+      "condition": "impulse",
+      "episodes": 150,
+      "successes": 149,
+      "success_rate": 0.9933333333333333
+    },
+    {
+      "method": "adaptive_only",
+      "condition": "nominal",
+      "episodes": 150,
+      "successes": 150,
+      "success_rate": 1.0
+    },
+    {
+      "method": "adaptive_only",
+      "condition": "slippery",
+      "episodes": 150,
+      "successes": 150,
+      "success_rate": 1.0
+    },
+    {
+      "method": "error",
+      "condition": "heavy",
+      "episodes": 150,
+      "successes": 139,
+      "success_rate": 0.9266666666666666
+    },
+    {
+      "method": "error",
+      "condition": "impulse",
+      "episodes": 150,
+      "successes": 74,
+      "success_rate": 0.49333333333333335
+    },
+    {
+      "method": "error",
+      "condition": "nominal",
+      "episodes": 150,
+      "successes": 144,
+      "success_rate": 0.96
+    },
+    {
+      "method": "error",
+      "condition": "slippery",
+      "episodes": 150,
+      "successes": 147,
+      "success_rate": 0.98
+    },
+    {
+      "method": "joint",
+      "condition": "heavy",
+      "episodes": 150,
+      "successes": 76,
+      "success_rate": 0.5066666666666667
+    },
+    {
+      "method": "joint",
+      "condition": "impulse",
+      "episodes": 150,
+      "successes": 35,
+      "success_rate": 0.23333333333333334
+    },
+    {
+      "method": "joint",
+      "condition": "nominal",
+      "episodes": 150,
+      "successes": 76,
+      "success_rate": 0.5066666666666667
+    },
+    {
+      "method": "joint",
+      "condition": "slippery",
+      "episodes": 150,
+      "successes": 75,
+      "success_rate": 0.5
+    },
+    {
+      "method": "joint_async",
+      "condition": "heavy",
+      "episodes": 150,
+      "successes": 131,
+      "success_rate": 0.8733333333333333
+    },
+    {
+      "method": "joint_async",
+      "condition": "impulse",
+      "episodes": 150,
+      "successes": 83,
+      "success_rate": 0.5533333333333333
+    },
+    {
+      "method": "joint_async",
+      "condition": "nominal",
+      "episodes": 150,
+      "successes": 121,
+      "success_rate": 0.8066666666666666
+    },
+    {
+      "method": "joint_async",
+      "condition": "slippery",
+      "episodes": 150,
+      "successes": 127,
+      "success_rate": 0.8466666666666667
+    },
+    {
+      "method": "joint_rule",
+      "condition": "heavy",
+      "episodes": 150,
+      "successes": 111,
+      "success_rate": 0.74
+    },
+    {
+      "method": "joint_rule",
+      "condition": "impulse",
+      "episodes": 150,
+      "successes": 54,
+      "success_rate": 0.36
+    },
+    {
+      "method": "joint_rule",
+      "condition": "nominal",
+      "episodes": 150,
+      "successes": 120,
+      "success_rate": 0.8
+    },
+    {
+      "method": "joint_rule",
+      "condition": "slippery",
+      "episodes": 150,
+      "successes": 111,
+      "success_rate": 0.74
+    }
+  ],
+  "by_seed": [
+    {
+      "method": "adaptive_only",
+      "model_seed": 11,
+      "episodes": 200,
+      "successes": 199,
+      "success_rate": 0.995
+    },
+    {
+      "method": "adaptive_only",
+      "model_seed": 29,
+      "episodes": 200,
+      "successes": 200,
+      "success_rate": 1.0
+    },
+    {
+      "method": "adaptive_only",
+      "model_seed": 47,
+      "episodes": 200,
+      "successes": 200,
+      "success_rate": 1.0
+    },
+    {
+      "method": "error",
+      "model_seed": 11,
+      "episodes": 200,
+      "successes": 167,
+      "success_rate": 0.835
+    },
+    {
+      "method": "error",
+      "model_seed": 29,
+      "episodes": 200,
+      "successes": 168,
+      "success_rate": 0.84
+    },
+    {
+      "method": "error",
+      "model_seed": 47,
+      "episodes": 200,
+      "successes": 169,
+      "success_rate": 0.845
+    },
+    {
+      "method": "joint",
+      "model_seed": 11,
+      "episodes": 200,
+      "successes": 86,
+      "success_rate": 0.43
+    },
+    {
+      "method": "joint",
+      "model_seed": 29,
+      "episodes": 200,
+      "successes": 89,
+      "success_rate": 0.445
+    },
+    {
+      "method": "joint",
+      "model_seed": 47,
+      "episodes": 200,
+      "successes": 87,
+      "success_rate": 0.435
+    },
+    {
+      "method": "joint_async",
+      "model_seed": 11,
+      "episodes": 200,
+      "successes": 156,
+      "success_rate": 0.78
+    },
+    {
+      "method": "joint_async",
+      "model_seed": 29,
+      "episodes": 200,
+      "successes": 153,
+      "success_rate": 0.765
+    },
+    {
+      "method": "joint_async",
+      "model_seed": 47,
+      "episodes": 200,
+      "successes": 153,
+      "success_rate": 0.765
+    },
+    {
+      "method": "joint_rule",
+      "model_seed": 11,
+      "episodes": 200,
+      "successes": 136,
+      "success_rate": 0.68
+    },
+    {
+      "method": "joint_rule",
+      "model_seed": 29,
+      "episodes": 200,
+      "successes": 135,
+      "success_rate": 0.675
+    },
+    {
+      "method": "joint_rule",
+      "model_seed": 47,
+      "episodes": 200,
+      "successes": 125,
+      "success_rate": 0.625
+    }
+  ],
+  "paired_descriptive_counts": [
+    {
+      "left": "joint_async",
+      "right": "joint",
+      "paired_scene_seed_cells": 600,
+      "both_success": 256,
+      "left_only": 206,
+      "right_only": 6,
+      "both_failure": 132,
+      "difference_percentage_points": 33.333333333333336
+    },
+    {
+      "left": "joint_async",
+      "right": "adaptive_only",
+      "paired_scene_seed_cells": 600,
+      "both_success": 462,
+      "left_only": 0,
+      "right_only": 137,
+      "both_failure": 1,
+      "difference_percentage_points": -22.833333333333332
+    }
+  ]
+}

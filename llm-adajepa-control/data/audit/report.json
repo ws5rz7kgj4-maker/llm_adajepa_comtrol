@@ -1,0 +1,209 @@
+{
+  "format": "adajepa-forensic-audit-v1",
+  "coverage": {
+    "observed": 3000,
+    "expected": 3000,
+    "complete": true,
+    "missing": []
+  },
+  "provenance": {
+    "source": "fixed Hub archive",
+    "protocol": "116cf750d3f03b3e4fa77595c46a6f57e3285e8ca110d22e609a5e2246535623",
+    "revision": "4af290228c40eb4d4cbcd33438c5163dd6c5f645",
+    "run": "3d-fe19836e8ef5",
+    "read_only": true,
+    "simulation_rerun": false,
+    "remote_compute_created": false
+  },
+  "methods": {
+    "adaptive_only": {
+      "episodes": 600,
+      "successes": 599,
+      "success_rate": 0.9983333333333333,
+      "response_records": 0,
+      "invalid_responses": 0,
+      "invalid_fraction": null,
+      "parser_categories": {},
+      "selected_skills": {},
+      "diagnostic_step_counts": {
+        "grasp_dwell_without_named_grasp": 601,
+        "release_dwell_without_named_release": 293,
+        "grasp_dwell_with_open_gripper_command": 1
+      },
+      "episodes_with_open_gripper_during_grasp_dwell": 1,
+      "parser_replay_mismatches": 0,
+      "by_task": {
+        "Lift": {
+          "episodes": 300,
+          "successes": 300
+        },
+        "PickPlaceCan": {
+          "episodes": 300,
+          "successes": 299
+        }
+      }
+    },
+    "error": {
+      "episodes": 600,
+      "successes": 504,
+      "success_rate": 0.84,
+      "response_records": 991,
+      "invalid_responses": 348,
+      "invalid_fraction": 0.3511604439959637,
+      "parser_categories": {
+        "valid_schema": 643,
+        "Three skills required": 348
+      },
+      "selected_skills": {
+        "descend": 537,
+        "lift": 12,
+        "grasp": 36,
+        "carry": 5,
+        "approach": 19,
+        "place": 5,
+        "regrasp": 1
+      },
+      "diagnostic_step_counts": {
+        "phase_differs_from_executed_skill": 29152,
+        "grasp_dwell_without_named_grasp": 1156,
+        "grasp_dwell_with_open_gripper_command": 390,
+        "release_dwell_without_named_release": 232
+      },
+      "episodes_with_open_gripper_during_grasp_dwell": 70,
+      "parser_replay_mismatches": 0,
+      "by_task": {
+        "Lift": {
+          "episodes": 300,
+          "successes": 269
+        },
+        "PickPlaceCan": {
+          "episodes": 300,
+          "successes": 235
+        }
+      }
+    },
+    "joint": {
+      "episodes": 600,
+      "successes": 262,
+      "success_rate": 0.43666666666666665,
+      "response_records": 2239,
+      "invalid_responses": 694,
+      "invalid_fraction": 0.30995980348369806,
+      "parser_categories": {
+        "valid_schema": 1545,
+        "Three skills required": 694
+      },
+      "selected_skills": {
+        "descend": 600,
+        "carry": 44,
+        "grasp": 570,
+        "approach": 18,
+        "lift": 143,
+        "regrasp": 22,
+        "place": 53
+      },
+      "diagnostic_step_counts": {
+        "phase_differs_from_executed_skill": 59604,
+        "grasp_dwell_without_named_grasp": 1675,
+        "grasp_dwell_with_open_gripper_command": 541,
+        "release_dwell_without_named_release": 1
+      },
+      "episodes_with_open_gripper_during_grasp_dwell": 53,
+      "parser_replay_mismatches": 0,
+      "by_task": {
+        "Lift": {
+          "episodes": 300,
+          "successes": 260
+        },
+        "PickPlaceCan": {
+          "episodes": 300,
+          "successes": 2
+        }
+      }
+    },
+    "joint_async": {
+      "episodes": 600,
+      "successes": 462,
+      "success_rate": 0.77,
+      "response_records": 1834,
+      "invalid_responses": 364,
+      "invalid_fraction": 0.1984732824427481,
+      "parser_categories": {
+        "valid_schema": 1470,
+        "Three skills required": 364
+      },
+      "selected_skills": {
+        "grasp": 256,
+        "descend": 353,
+        "lift": 366,
+        "carry": 67,
+        "approach": 32,
+        "regrasp": 3,
+        "place": 24,
+        "retreat": 2
+      },
+      "diagnostic_step_counts": {
+        "phase_differs_from_executed_skill": 15913,
+        "grasp_dwell_without_named_grasp": 4856,
+        "grasp_dwell_with_open_gripper_command": 3186,
+        "release_dwell_without_named_release": 120
+      },
+      "episodes_with_open_gripper_during_grasp_dwell": 307,
+      "parser_replay_mismatches": 0,
+      "by_task": {
+        "Lift": {
+          "episodes": 300,
+          "successes": 278
+        },
+        "PickPlaceCan": {
+          "episodes": 300,
+          "successes": 184
+        }
+      }
+    },
+    "joint_rule": {
+      "episodes": 600,
+      "successes": 396,
+      "success_rate": 0.66,
+      "response_records": 2196,
+      "invalid_responses": 0,
+      "invalid_fraction": 0.0,
+      "parser_categories": {
+        "valid_schema": 2196
+      },
+      "selected_skills": {
+        "approach": 1234,
+        "descend": 593,
+        "regrasp": 146,
+        "retreat": 42,
+        "lift": 122,
+        "carry": 3
+      },
+      "diagnostic_step_counts": {
+        "phase_differs_from_executed_skill": 30471,
+        "grasp_dwell_without_named_grasp": 4822,
+        "grasp_dwell_with_open_gripper_command": 4193,
+        "release_dwell_without_named_release": 89
+      },
+      "episodes_with_open_gripper_during_grasp_dwell": 320,
+      "parser_replay_mismatches": 0,
+      "by_task": {
+        "Lift": {
+          "episodes": 300,
+          "successes": 256
+        },
+        "PickPlaceCan": {
+          "episodes": 300,
+          "successes": 140
+        }
+      }
+    }
+  },
+  "interpretation": [
+    "Parser rejection is not itself a semantic-reasoning error.",
+    "State-machine phase is reconstructed from logged observed state using the original SkillPolicy logic.",
+    "A named-skill mismatch can still share a physical gripper command; use the open/close command diagnostics too.",
+    "Association with failure is not a causal attribution. A counterfactual rerun would be needed to measure causal contribution.",
+    "This script neither modifies the evaluated controller nor reruns episodes."
+  ]
+}

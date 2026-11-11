@@ -1,0 +1,17 @@
+{
+  "selection": "nominal scene 000, seed 11, both tasks, all five audited methods; illustrative, not representative sampling",
+  "source_trace_sha256": "cf6b6850063afe3747e2f590e53a26902bc6fc59dcceda0de59379daa8610070",
+  "source_trace_bytes": 501162273,
+  "selected_step_counts": {
+    "test-Lift-nominal-000__seed11__adaptive_only": 43,
+    "test-Lift-nominal-000__seed11__error": 114,
+    "test-Lift-nominal-000__seed11__joint": 110,
+    "test-Lift-nominal-000__seed11__joint_async": 47,
+    "test-Lift-nominal-000__seed11__joint_rule": 137,
+    "test-PickPlaceCan-nominal-000__seed11__adaptive_only": 202,
+    "test-PickPlaceCan-nominal-000__seed11__error": 223,
+    "test-PickPlaceCan-nominal-000__seed11__joint": 240,
+    "test-PickPlaceCan-nominal-000__seed11__joint_async": 240,
+    "test-PickPlaceCan-nominal-000__seed11__joint_rule": 201
+  }
+}
